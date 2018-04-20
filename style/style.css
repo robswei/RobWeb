@@ -61,8 +61,14 @@ body, html{
     padding: 20px;
 }
 
-.ptext .border.transparent{
+.ptext .border.black{
     background-color: transparent;
+    color: #282e34;
+}
+
+.ptext .border.white{
+    background-color: transparent;
+    color: #fff;
 }
 
 .pimg1.last .ptext .border {
@@ -71,6 +77,6 @@ body, html{
 
 @media(max-width: 568px){
     .pimg1, .pimg2, .pimg3{
-        background-attachment: fixed;
+        background-attachment: scroll;
     }
 }
